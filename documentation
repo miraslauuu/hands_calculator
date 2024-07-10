@@ -1,0 +1,11 @@
+setting up environment:
+
+1) installing python using brew: brew install python
+2) creating virtual environemnt: python3 -m venv venv
+3) activating VE: source venv/bin/activate
+4) installing libraries: pip install opencv-python mediapipe
+5) to run use terminal and write the following command "python hands.py"
+
+
+
+
