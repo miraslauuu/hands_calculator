@@ -78,7 +78,6 @@ while cap.isOpened():
     cv2.putText(frame, f"Sum: {operation_result}", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
     cv2.imshow('Hand Tracking', frame) # show the frame with landmarks
-    cv2.imshow('Hand Tracking', frame) # show the frame with landmarks
 
     if cv2.waitKey(1) & 0xFF == ord('q'): # exit on q
         break
@@ -86,4 +85,3 @@ while cap.isOpened():
 cap.release() # release the webcam
 cv2.destroyAllWindows() # close OpenCV windows
 
-#check
